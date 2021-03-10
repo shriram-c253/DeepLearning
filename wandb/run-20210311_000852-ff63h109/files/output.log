@@ -1,0 +1,4 @@
+<ipython-input-2-ac4167fd08b9>:182: RuntimeWarning: invalid value encountered in sqrt
+  update_W = [ (u) / np.sqrt( (v / (1 - nbeta2 ** t)) + epsilon) for u, v in zip(m_W, v_W)]
+<ipython-input-2-ac4167fd08b9>:184: RuntimeWarning: invalid value encountered in sqrt
+  update_b = [ (u) / np.sqrt( (v / (1 - nbeta2 ** t)) + epsilon) for u, v in zip(m_b, v_b)]

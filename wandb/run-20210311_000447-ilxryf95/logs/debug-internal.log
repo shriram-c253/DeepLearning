@@ -1,0 +1,28 @@
+2021-03-11 00:04:49,852 INFO    MainThread:8416 [internal.py:wandb_internal():88] W&B internal server running at pid: 8416, started at: 2021-03-11 00:04:49.845635
+2021-03-11 00:04:49,854 INFO    WriterThread:8416 [datastore.py:open_for_write():77] open: C:\Users\R Raghu Raman\Desktop\cs6910\DeepLearning\wandb\run-20210311_000447-ilxryf95\run-ilxryf95.wandb
+2021-03-11 00:04:49,854 DEBUG   HandlerThread:8416 [handler.py:handle_request():101] handle_request: check_version
+2021-03-11 00:04:49,856 DEBUG   SenderThread:8416 [sender.py:send():122] send: header
+2021-03-11 00:04:49,857 DEBUG   SenderThread:8416 [sender.py:send():122] send: request
+2021-03-11 00:04:49,857 DEBUG   SenderThread:8416 [sender.py:send_request():131] send_request: check_version
+2021-03-11 00:04:50,762 DEBUG   SenderThread:8416 [sender.py:send():122] send: run
+2021-03-11 00:04:51,222 INFO    SenderThread:8416 [sender.py:_start_run_threads():596] run started: ilxryf95 with start time 1615401288
+2021-03-11 00:04:51,222 DEBUG   SenderThread:8416 [sender.py:send():122] send: summary
+2021-03-11 00:04:51,223 INFO    SenderThread:8416 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-11 00:04:51,223 DEBUG   HandlerThread:8416 [handler.py:handle_request():101] handle_request: run_start
+2021-03-11 00:04:55,056 DEBUG   HandlerThread:8416 [meta.py:__init__():34] meta init
+2021-03-11 00:04:55,056 DEBUG   HandlerThread:8416 [meta.py:__init__():48] meta init done
+2021-03-11 00:04:55,056 DEBUG   HandlerThread:8416 [meta.py:probe():190] probe
+2021-03-11 00:04:55,179 DEBUG   HandlerThread:8416 [meta.py:_setup_git():180] setup git
+2021-03-11 00:04:55,301 DEBUG   HandlerThread:8416 [meta.py:_setup_git():187] setup git done
+2021-03-11 00:04:55,301 DEBUG   HandlerThread:8416 [meta.py:_save_pip():52] save pip
+2021-03-11 00:04:55,302 DEBUG   HandlerThread:8416 [meta.py:_save_pip():66] save pip done
+2021-03-11 00:04:55,302 DEBUG   HandlerThread:8416 [meta.py:probe():231] probe done
+2021-03-11 00:04:55,308 DEBUG   SenderThread:8416 [sender.py:send():122] send: files
+2021-03-11 00:04:55,308 INFO    SenderThread:8416 [sender.py:_save_file():730] saving file wandb-metadata.json with policy now
+2021-03-11 00:04:58,872 WARNING MainThread:8416 [internal.py:is_dead():343] Internal process exiting, parent pid 15764 disappeared
+2021-03-11 00:04:58,872 ERROR   MainThread:8416 [internal.py:wandb_internal():142] Internal process shutdown.
+2021-03-11 00:04:59,047 INFO    HandlerThread:8416 [handler.py:finish():535] shutting down handler
+2021-03-11 00:04:59,048 DEBUG   SenderThread:8416 [sender.py:send():122] send: stats
+2021-03-11 00:04:59,048 INFO    WriterThread:8416 [datastore.py:close():258] close: C:\Users\R Raghu Raman\Desktop\cs6910\DeepLearning\wandb\run-20210311_000447-ilxryf95\run-ilxryf95.wandb
+2021-03-11 00:04:59,048 INFO    SenderThread:8416 [sender.py:finish():833] shutting down sender
+2021-03-11 00:05:00,491 INFO    MainThread:8416 [internal.py:handle_exit():78] Internal process exited
