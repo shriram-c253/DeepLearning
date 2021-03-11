@@ -1,0 +1,1 @@
+{"layer_sizes": 128, "_runtime": 27, "_timestamp": 1615468963, "_step": 32, "num_layers": 3, "activation": "sigmoid", "optimizer": "adam", "weight_decay": 0.0005, "batch_size": 32, "learning_rate": 0.001, "weight_init": "Xavier", "epoch": 5, "loss": NaN, "accuracy": 0.0995}

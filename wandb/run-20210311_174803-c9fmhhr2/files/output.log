@@ -1,0 +1,2 @@
+wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+(54000, 784) (6000, 784) (54000,) (6000,)

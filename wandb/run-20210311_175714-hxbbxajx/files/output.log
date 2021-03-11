@@ -1,0 +1,4 @@
+wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+1
+2 (784, 128) (128, 9)
+3

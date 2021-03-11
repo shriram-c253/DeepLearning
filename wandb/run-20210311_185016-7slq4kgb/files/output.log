@@ -1,0 +1,3 @@
+wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+<ipython-input-3-210dff02a126>:166: RuntimeWarning: invalid value encountered in sqrt
+  update_W = [(self.learning_rate * u) / np.sqrt(v + epsilon) for u, v in zip(dW, v_W)]

@@ -1,0 +1,1 @@
+{"layer_sizes": 64, "_runtime": 28, "_timestamp": 1615469052, "_step": 12, "num_layers": 5, "activation": "tanh", "optimizer": "sgd", "weight_decay": 0.5, "batch_size": 16, "learning_rate": 0.001, "weight_init": "random", "epoch": 5}

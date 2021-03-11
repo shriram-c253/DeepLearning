@@ -1,0 +1,71 @@
+2021-03-11 18:10:34,086 INFO    MainThread:13876 [internal.py:wandb_internal():88] W&B internal server running at pid: 13876, started at: 2021-03-11 18:10:34.081503
+2021-03-11 18:10:34,088 INFO    WriterThread:13876 [datastore.py:open_for_write():77] open: C:\Users\R Raghu Raman\Desktop\cs6910\DeepLearning\wandb\run-20210311_181032-inwtjivj\run-inwtjivj.wandb
+2021-03-11 18:10:34,088 DEBUG   HandlerThread:13876 [handler.py:handle_request():101] handle_request: check_version
+2021-03-11 18:10:34,090 DEBUG   SenderThread:13876 [sender.py:send():122] send: header
+2021-03-11 18:10:34,090 DEBUG   SenderThread:13876 [sender.py:send():122] send: request
+2021-03-11 18:10:34,090 DEBUG   SenderThread:13876 [sender.py:send_request():131] send_request: check_version
+2021-03-11 18:10:35,011 DEBUG   SenderThread:13876 [sender.py:send():122] send: run
+2021-03-11 18:10:35,453 INFO    SenderThread:13876 [sender.py:_start_run_threads():596] run started: inwtjivj with start time 1615466432
+2021-03-11 18:10:35,453 DEBUG   SenderThread:13876 [sender.py:send():122] send: summary
+2021-03-11 18:10:35,454 INFO    SenderThread:13876 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-11 18:10:35,455 DEBUG   HandlerThread:13876 [handler.py:handle_request():101] handle_request: run_start
+2021-03-11 18:10:38,587 DEBUG   HandlerThread:13876 [meta.py:__init__():34] meta init
+2021-03-11 18:10:38,587 DEBUG   HandlerThread:13876 [meta.py:__init__():48] meta init done
+2021-03-11 18:10:38,587 DEBUG   HandlerThread:13876 [meta.py:probe():190] probe
+2021-03-11 18:10:38,710 DEBUG   HandlerThread:13876 [meta.py:_setup_git():180] setup git
+2021-03-11 18:10:38,818 DEBUG   HandlerThread:13876 [meta.py:_setup_git():187] setup git done
+2021-03-11 18:10:38,818 DEBUG   HandlerThread:13876 [meta.py:_save_pip():52] save pip
+2021-03-11 18:10:38,820 DEBUG   HandlerThread:13876 [meta.py:_save_pip():66] save pip done
+2021-03-11 18:10:38,820 DEBUG   HandlerThread:13876 [meta.py:probe():231] probe done
+2021-03-11 18:10:39,026 DEBUG   SenderThread:13876 [sender.py:send():122] send: files
+2021-03-11 18:10:39,026 INFO    SenderThread:13876 [sender.py:_save_file():730] saving file wandb-metadata.json with policy now
+2021-03-11 18:10:39,027 DEBUG   HandlerThread:13876 [handler.py:handle_request():101] handle_request: status
+2021-03-11 18:10:39,028 DEBUG   SenderThread:13876 [sender.py:send():122] send: request
+2021-03-11 18:10:39,029 DEBUG   SenderThread:13876 [sender.py:send_request():131] send_request: status
+2021-03-11 18:10:39,311 DEBUG   SenderThread:13876 [sender.py:send():122] send: run
+2021-03-11 18:10:39,683 INFO    SenderThread:13876 [sender.py:send_run():502] updated run: inwtjivj
+2021-03-11 18:10:39,683 DEBUG   SenderThread:13876 [sender.py:send():122] send: history
+2021-03-11 18:10:39,684 DEBUG   SenderThread:13876 [sender.py:send():122] send: summary
+2021-03-11 18:10:39,686 INFO    SenderThread:13876 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-11 18:10:39,687 DEBUG   SenderThread:13876 [sender.py:send():122] send: history
+2021-03-11 18:10:39,687 DEBUG   SenderThread:13876 [sender.py:send():122] send: summary
+2021-03-11 18:10:39,688 INFO    SenderThread:13876 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-11 18:10:39,688 DEBUG   SenderThread:13876 [sender.py:send():122] send: history
+2021-03-11 18:10:39,688 DEBUG   SenderThread:13876 [sender.py:send():122] send: summary
+2021-03-11 18:10:39,689 INFO    SenderThread:13876 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-11 18:10:39,689 DEBUG   SenderThread:13876 [sender.py:send():122] send: history
+2021-03-11 18:10:39,690 DEBUG   SenderThread:13876 [sender.py:send():122] send: summary
+2021-03-11 18:10:39,690 INFO    SenderThread:13876 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-11 18:10:39,691 DEBUG   SenderThread:13876 [sender.py:send():122] send: history
+2021-03-11 18:10:39,691 DEBUG   SenderThread:13876 [sender.py:send():122] send: summary
+2021-03-11 18:10:39,692 INFO    SenderThread:13876 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-11 18:10:39,693 DEBUG   SenderThread:13876 [sender.py:send():122] send: history
+2021-03-11 18:10:39,693 DEBUG   SenderThread:13876 [sender.py:send():122] send: summary
+2021-03-11 18:10:39,694 INFO    SenderThread:13876 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-11 18:10:39,694 DEBUG   SenderThread:13876 [sender.py:send():122] send: history
+2021-03-11 18:10:39,694 DEBUG   SenderThread:13876 [sender.py:send():122] send: summary
+2021-03-11 18:10:39,695 INFO    SenderThread:13876 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-11 18:10:39,695 DEBUG   SenderThread:13876 [sender.py:send():122] send: history
+2021-03-11 18:10:39,695 DEBUG   SenderThread:13876 [sender.py:send():122] send: summary
+2021-03-11 18:10:39,696 INFO    SenderThread:13876 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-11 18:10:42,644 DEBUG   SenderThread:13876 [sender.py:send():122] send: stats
+2021-03-11 18:10:47,717 DEBUG   SenderThread:13876 [sender.py:send():122] send: stats
+2021-03-11 18:10:52,769 DEBUG   SenderThread:13876 [sender.py:send():122] send: stats
+2021-03-11 18:10:54,313 DEBUG   HandlerThread:13876 [handler.py:handle_request():101] handle_request: status
+2021-03-11 18:10:54,313 DEBUG   SenderThread:13876 [sender.py:send():122] send: request
+2021-03-11 18:10:54,313 DEBUG   SenderThread:13876 [sender.py:send_request():131] send_request: status
+2021-03-11 18:10:57,826 DEBUG   SenderThread:13876 [sender.py:send():122] send: stats
+2021-03-11 18:11:02,881 DEBUG   SenderThread:13876 [sender.py:send():122] send: stats
+2021-03-11 18:11:07,946 DEBUG   SenderThread:13876 [sender.py:send():122] send: stats
+2021-03-11 18:11:09,600 DEBUG   HandlerThread:13876 [handler.py:handle_request():101] handle_request: status
+2021-03-11 18:11:09,600 DEBUG   SenderThread:13876 [sender.py:send():122] send: request
+2021-03-11 18:11:09,600 DEBUG   SenderThread:13876 [sender.py:send_request():131] send_request: status
+2021-03-11 18:11:13,023 DEBUG   SenderThread:13876 [sender.py:send():122] send: stats
+2021-03-11 18:11:18,083 DEBUG   SenderThread:13876 [sender.py:send():122] send: stats
+2021-03-11 18:11:23,128 WARNING MainThread:13876 [internal.py:is_dead():343] Internal process exiting, parent pid 9772 disappeared
+2021-03-11 18:11:23,129 ERROR   MainThread:13876 [internal.py:wandb_internal():142] Internal process shutdown.
+2021-03-11 18:11:23,176 INFO    HandlerThread:13876 [handler.py:finish():535] shutting down handler
+2021-03-11 18:11:23,176 DEBUG   SenderThread:13876 [sender.py:send():122] send: stats
+2021-03-11 18:11:23,177 INFO    WriterThread:13876 [datastore.py:close():258] close: C:\Users\R Raghu Raman\Desktop\cs6910\DeepLearning\wandb\run-20210311_181032-inwtjivj\run-inwtjivj.wandb
+2021-03-11 18:11:23,177 INFO    SenderThread:13876 [sender.py:finish():833] shutting down sender
+2021-03-11 18:11:25,255 INFO    MainThread:13876 [internal.py:handle_exit():78] Internal process exited
