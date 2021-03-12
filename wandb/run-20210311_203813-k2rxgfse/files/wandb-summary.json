@@ -1,0 +1,1 @@
+{"layer_sizes": 32, "_runtime": 44, "_timestamp": 1615475337, "_step": 57, "num_layers": 3, "activation": "tanh", "optimizer": "nesterov", "weight_decay": 0, "batch_size": 64, "learning_rate": 0.0001, "weight_init": "random", "epoch": 10, "loss": 208719962.3517515, "accuracy": 0.0997962962962963, "val_loss": 23191106.92832159, "val_accuracy": 0.10183333333333333}
