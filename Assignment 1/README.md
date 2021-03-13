@@ -5,14 +5,41 @@ This directory contains solution to [assignment 1](https://wandb.ai/miteshk/assi
 The solution report with results can be found [here](https://wandb.ai/0x2e4/cs6910-a1/reports/CS6910-Spring-2021-Assignment-1--Vmlldzo1MjA1NjE).
 
 ## Usage
-The main content of this file is the class FFNClassifier which implements all the required algorithms for the assignment. It can be passed with all the hyperparameters required. An example follows:
-
+The main content of this file is the class FFNClassifier which implements all the required algorithms for the assignment. It can be passed with all the hyperparameters required. The class takes in attributes as follows:
 ```python
-model = FFNClassifier(3, 7, optimizer = 'adam', weight_init = 'Xavier')
+FNNClassifier(self,
+                 layer_size,
+                 num_layers,
+                 activation = 'ReLU',
+                 optimizer = 'adam',
+                 weight_decay = 0.0001,
+                 batch_size = 200,
+                 learning_rate = 0.001,
+                 num_epochs = 200,
+                 weight_init = 'Xavier',
+                 loss = 'cross_entropy')
 ```
 
-Next, one can fit the training data using the fit function:
+**activation : {'sigmoid', 'tanh', 'ReLU'}, default = 'ReLU'**  
+The activation function for the hidden layers  
+**optimizer : {'normal', 'sgd', 'momentum', 'nesterov', 'rmsprop', 'adam', 'nadam'}, default = 'adam'**  
+The optimization algorithm to use  
+**weight_decay : float, default = 0.0001**  
+L2 regularization hyperparameter  
+**batch_size : int, default = 200**  
+Batch size for SGD  
+**learning_rate : float, default = 0.001**  
+The learning rate  
+**num_epochs : int, default = 200**  
+The number of gradient descent epochs
+**weight_init : {'random', 'Xavier'}, default = 'Xavier'**  
+The method of weight initialization   
+**loss = {'cross_entropy', 'square'}, default = 'cross_entropy'**  
+The loss function to be minimized  
+
+One can fit the training data using the fit function:
 ```python
+model = FFNClassifier(3, 7, optimizer = 'adam', weight_init = 'Xavier')
 model.fit(X_train, Y_train)
 ```
 
