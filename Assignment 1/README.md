@@ -31,7 +31,7 @@ Batch size for SGD
 **learning_rate : float, default = 0.001**  
 The learning rate  
 **num_epochs : int, default = 200**  
-The number of gradient descent epochs
+The number of gradient descent epochs  
 **weight_init : {'random', 'Xavier'}, default = 'Xavier'**  
 The method of weight initialization   
 **loss = {'cross_entropy', 'square'}, default = 'cross_entropy'**  
