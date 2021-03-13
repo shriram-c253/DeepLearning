@@ -52,5 +52,5 @@ print(model.accuracy(Y_test, Y_pred))
 If one wants the predicted probabilities instead of the class, predict_proba can be used instead of predict. To calculate the loss using this, one can call the loss_calc function.
 ```python
 Y_pred_proba = model.predict_proba(X_test)
-print(model.accuracy(Y_test, Y_pred_proba))
+print(model.loss_calc(Y_test, Y_pred_proba))
 ```
