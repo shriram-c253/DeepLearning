@@ -1,3 +1,0 @@
-wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
-<ipython-input-21-f145c153c44a>:69: RuntimeWarning: invalid value encountered in matmul
-  self.a.append((self.b[i].T + (self.W[i].T @ self.h[i - 1]).T).T)

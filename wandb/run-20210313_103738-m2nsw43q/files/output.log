@@ -1,9 +1,0 @@
-wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
-<ipython-input-6-6992294c8cb4>:37: RuntimeWarning: overflow encountered in exp
-  return np.where(z > 0, (1 - np.exp(-2 * z)) / (1 + np.exp(-2 * z)),
-<ipython-input-6-6992294c8cb4>:37: RuntimeWarning: invalid value encountered in true_divide
-  return np.where(z > 0, (1 - np.exp(-2 * z)) / (1 + np.exp(-2 * z)),
-<ipython-input-6-6992294c8cb4>:38: RuntimeWarning: overflow encountered in exp
-  (np.exp(2 * z) - 1) / (np.exp(2 * z) + 1))
-<ipython-input-6-6992294c8cb4>:38: RuntimeWarning: invalid value encountered in true_divide
-  (np.exp(2 * z) - 1) / (np.exp(2 * z) + 1))

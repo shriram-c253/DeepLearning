@@ -1,1 +1,0 @@
-{"layer_sizes": 32, "_runtime": 7, "_timestamp": 1615400731, "_step": 8, "num_layers": 5, "activation": "ReLU", "optimizer": "momentum", "weight_decay": 0, "batch_size": 64, "learning_rate": 0.0001, "weight_init": "Xavier", "accuracy": 0.25}

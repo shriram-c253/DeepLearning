@@ -1,3 +1,0 @@
-wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
-<ipython-input-3-73c576fc6e9f>:41: RuntimeWarning: overflow encountered in cosh
-  return np.cosh(z) ** -2

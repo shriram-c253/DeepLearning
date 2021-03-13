@@ -1,1 +1,0 @@
-{"layer_sizes": 64, "_runtime": 20, "_timestamp": 1615475213, "_step": 32, "num_layers": 5, "activation": "ReLU", "optimizer": "rmsprop", "weight_decay": 0.5, "batch_size": 16, "learning_rate": 0.0001, "weight_init": "random", "epoch": 5, "loss": NaN, "accuracy": 0.10005555555555555, "val_loss": NaN, "val_accuracy": 0.0995}

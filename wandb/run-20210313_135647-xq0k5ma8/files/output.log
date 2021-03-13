@@ -1,7 +1,0 @@
-wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
-<ipython-input-21-f145c153c44a>:51: RuntimeWarning: overflow encountered in exp
-  temp = np.exp(z) / np.exp(z).sum(axis=0)
-<ipython-input-21-f145c153c44a>:51: RuntimeWarning: invalid value encountered in true_divide
-  temp = np.exp(z) / np.exp(z).sum(axis=0)
-<ipython-input-21-f145c153c44a>:56: RuntimeWarning: divide by zero encountered in log2
-  return -np.sum(np.log2(Y_pred[np.arange(Y.shape[0]), Y]))

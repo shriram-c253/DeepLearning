@@ -1,5 +1,0 @@
-wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
-<ipython-input-3-210dff02a126>:46: RuntimeWarning: overflow encountered in exp
-  return np.exp(z) / np.exp(z).sum(axis=0)
-<ipython-input-3-210dff02a126>:46: RuntimeWarning: invalid value encountered in true_divide
-  return np.exp(z) / np.exp(z).sum(axis=0)

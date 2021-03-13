@@ -1,3 +1,0 @@
-wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
-<ipython-input-21-f145c153c44a>:85: RuntimeWarning: invalid value encountered in matmul
-  self.gradh.append(self.W[i] @ self.grada[self.L - i])

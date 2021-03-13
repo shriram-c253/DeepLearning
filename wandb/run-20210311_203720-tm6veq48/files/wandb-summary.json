@@ -1,1 +1,0 @@
-{"layer_sizes": 32, "_runtime": 45, "_timestamp": 1615475285, "_step": 57, "num_layers": 5, "activation": "tanh", "optimizer": "nadam", "weight_decay": 0.0005, "batch_size": 32, "learning_rate": 0.0001, "weight_init": "random", "epoch": 10, "loss": NaN, "accuracy": 0.10005555555555555, "val_loss": NaN, "val_accuracy": 0.0995}

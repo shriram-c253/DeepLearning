@@ -1,5 +1,0 @@
-wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
-<ipython-input-6-cea88ad5fa83>:189: RuntimeWarning: invalid value encountered in sqrt
-  update_W = [ (u) / np.sqrt( (v / (1 - nbeta2 ** t)) + epsilon) for u, v in zip(m_W, v_W)]
-<ipython-input-6-cea88ad5fa83>:191: RuntimeWarning: invalid value encountered in sqrt
-  update_b = [ (u) / np.sqrt( (v / (1 - nbeta2 ** t)) + epsilon) for u, v in zip(m_b, v_b)]

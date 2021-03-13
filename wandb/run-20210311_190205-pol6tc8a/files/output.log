@@ -1,5 +1,0 @@
-wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
-<ipython-input-3-22f8a62d8c81>:31: RuntimeWarning: overflow encountered in exp
-  return 1 / (1 + np.exp(-z))
-<ipython-input-3-22f8a62d8c81>:39: RuntimeWarning: overflow encountered in exp
-  return 1 / (2 + np.exp(-z) + np.exp(z))

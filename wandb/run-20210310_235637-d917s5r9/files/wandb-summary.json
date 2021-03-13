@@ -1,1 +1,0 @@
-{"layer_sizes": 64, "_runtime": 7, "_timestamp": 1615400804, "_step": 8, "num_layers": 3, "activation": "sigmoid", "optimizer": "adam", "weight_decay": 0.0005, "batch_size": 64, "learning_rate": 0.0001, "weight_init": "Xavier", "accuracy": 0.0}

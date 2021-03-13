@@ -1,1 +1,0 @@
-{"layer_sizes": 128, "_runtime": 6, "_timestamp": 1615465325, "_step": 7, "num_layers": 5, "activation": "sigmoid", "optimizer": "normal", "weight_decay": 0, "batch_size": 16, "learning_rate": 0.001, "weight_init": "normal"}

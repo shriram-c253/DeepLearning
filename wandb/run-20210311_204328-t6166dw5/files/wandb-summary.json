@@ -1,1 +1,0 @@
-{"layer_sizes": 32, "_runtime": 47, "_timestamp": 1615475656, "_step": 57, "num_layers": 5, "activation": "sigmoid", "optimizer": "momentum", "weight_decay": 0.0005, "batch_size": 32, "learning_rate": 0.0001, "weight_init": "random", "epoch": 10, "loss": 1873073.4096550532, "accuracy": 0.10024074074074074, "val_loss": 208119.26773945015, "val_accuracy": 0.09783333333333333}
