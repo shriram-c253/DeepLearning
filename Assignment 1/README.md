@@ -1,23 +1,22 @@
 # Assignment 1
 
-This directory contains solution to [assignment 1](https://wandb.ai/miteshk/assignments/reports/Assignment-1--VmlldzozNjk4NDE?accessToken=r7ndsh8lf4wlxyjln7phvvfb8ftvc0n4lyn4tiowdg06hhzpzfzki4jrm28wqh44) of Fundamental Deep Learning (CS6910), Spring 2021. It also contains the implementation of a Feed Forward Neural Network **FFNClassifier** which can be trained to work on numerical data.
+This directory contains solution to [assignment 1](https://wandb.ai/miteshk/assignments/reports/Assignment-1--VmlldzozNjk4NDE?accessToken=r7ndsh8lf4wlxyjln7phvvfb8ftvc0n4lyn4tiowdg06hhzpzfzki4jrm28wqh44) of Fundamentals of Deep Learning (CS6910), Spring 2021. It also contains the implementation of a Feed Forward Neural Network **FFNClassifier** which can be trained to work on numerical data.
 
 The solution report with results can be found [here](https://wandb.ai/0x2e4/cs6910-a1/reports/CS6910-Spring-2021-Assignment-1--Vmlldzo1MjA1NjE).
 
 ## Usage
 The main content of this file is the class FFNClassifier which implements all the required algorithms for the assignment. It can be passed with all the hyperparameters required. The class takes in attributes as follows:
 ```python
-FNNClassifier(self,
-                 layer_size,
-                 num_layers,
-                 activation = 'ReLU',
-                 optimizer = 'adam',
-                 weight_decay = 0.0001,
-                 batch_size = 200,
-                 learning_rate = 0.001,
-                 num_epochs = 200,
-                 weight_init = 'Xavier',
-                 loss = 'cross_entropy')
+FNNClassifier(layer_size,
+              num_layers,
+              activation = 'ReLU',
+              optimizer = 'adam',
+              weight_decay = 0.0001,
+              batch_size = 200,
+              learning_rate = 0.001,
+              num_epochs = 200,
+              weight_init = 'Xavier',
+              loss = 'cross_entropy')
 ```
 
 **activation : {'sigmoid', 'tanh', 'ReLU'}, default = 'ReLU'**  
