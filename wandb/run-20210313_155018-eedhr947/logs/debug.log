@@ -1,0 +1,26 @@
+2021-03-13 15:50:18,075 INFO    Thread-1380:1220 [wandb_setup.py:_flush():69] setting env: {'entity': '0x2e4', 'project': 'cs6910-a1', 'root_dir': 'C:\\Users\\Shriram\\Documents\\GitHub\\DeepLearning', 'sweep_id': 'ehw8djxg', 'run_id': 'eedhr947', 'sweep_param_path': 'C:\\Users\\Shriram\\Documents\\GitHub\\DeepLearning\\wandb\\sweep-ehw8djxg\\config-eedhr947.yaml'}
+2021-03-13 15:50:18,075 INFO    Thread-1380:1220 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-13 15:50:18,076 INFO    Thread-1380:1220 [wandb_init.py:_log_setup():334] Logging user logs to C:\Users\Shriram\Documents\GitHub\DeepLearning\wandb\run-20210313_155018-eedhr947\logs\debug.log
+2021-03-13 15:50:18,076 INFO    Thread-1380:1220 [wandb_init.py:_log_setup():335] Logging internal logs to C:\Users\Shriram\Documents\GitHub\DeepLearning\wandb\run-20210313_155018-eedhr947\logs\debug-internal.log
+2021-03-13 15:50:18,077 INFO    Thread-1380:1220 [wandb_init.py:_jupyter_setup():285] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000021728D09430>
+2021-03-13 15:50:18,077 INFO    Thread-1380:1220 [wandb_init.py:init():367] calling init triggers
+2021-03-13 15:50:18,077 INFO    Thread-1380:1220 [wandb_init.py:init():372] wandb.init called with sweep_config: {'activation': 'ReLU', 'batch_size': 64, 'layer_size': 32, 'learning_rate': 0.0001, 'num_epochs': 5, 'num_layers': 4, 'optimizer': 'nadam', 'weight_decay': 0.5, 'weight_init': 'Xavier'}
+config: {'layer_size': 32, 'num_layers': 4, 'activation': 'ReLU', 'optimizer': 'adam', 'weight_decay': 0.0005, 'batch_size': 32, 'num_epochs': 5, 'learning_rate': 0.001, 'weight_init': 'random'}
+2021-03-13 15:50:18,077 INFO    Thread-1380:1220 [wandb_init.py:init():416] starting backend
+2021-03-13 15:50:18,077 INFO    Thread-1380:1220 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=spawn, using: spawn
+2021-03-13 15:50:18,081 INFO    Thread-1380:1220 [backend.py:ensure_launched():123] starting backend process...
+2021-03-13 15:50:18,172 INFO    Thread-1380:1220 [backend.py:ensure_launched():127] started backend process with pid: 14660
+2021-03-13 15:50:18,173 INFO    Thread-1380:1220 [wandb_init.py:init():421] backend started and connected
+2021-03-13 15:50:18,184 INFO    Thread-1380:1220 [wandb_run.py:_config_callback():733] config_cb None None {'activation': 'ReLU', 'batch_size': 64, 'layer_size': 32, 'learning_rate': 0.0001, 'num_epochs': 5, 'num_layers': 4, 'optimizer': 'nadam', 'weight_decay': 0.5, 'weight_init': 'Xavier'}
+2021-03-13 15:50:18,185 INFO    Thread-1380:1220 [wandb_init.py:init():461] updated telemetry
+2021-03-13 15:50:18,186 INFO    Thread-1380:1220 [wandb_init.py:init():480] communicating current version
+2021-03-13 15:50:19,610 INFO    Thread-1380:1220 [wandb_init.py:init():485] got version response upgrade_message: "wandb version 0.10.22 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-03-13 15:50:19,610 INFO    Thread-1380:1220 [wandb_init.py:init():493] communicating run to backend with 30 second timeout
+2021-03-13 15:50:19,946 INFO    Thread-1380:1220 [wandb_init.py:init():518] starting run threads in backend
+2021-03-13 15:50:22,882 INFO    Thread-1380:1220 [wandb_run.py:_console_start():1476] atexit reg
+2021-03-13 15:50:22,883 INFO    Thread-1380:1220 [wandb_run.py:_redirect():1339] redirect: SettingsConsole.WRAP
+2021-03-13 15:50:22,883 INFO    Thread-1380:1220 [wandb_run.py:_redirect():1374] Wrapping output streams.
+2021-03-13 15:50:22,883 INFO    Thread-1380:1220 [wandb_run.py:_redirect():1390] Redirects installed.
+2021-03-13 15:50:22,883 INFO    Thread-1380:1220 [wandb_init.py:init():542] run started, returning control to user process
+2021-03-13 15:50:30,185 INFO    Thread-1380:1220 [wandb_run.py:finish():1135] finishing run 0x2e4/cs6910-a1/eedhr947

@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2021-03-13T06:22:46.030971",
+    "startedAt": "2021-03-13T06:22:41.147087",
+    "docker": null,
+    "gpu": "GeForce GTX 1050",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\Shriram\\AppData\\Roaming\\jupyter\\runtime\\kernel-cb1b323d-08f5-437a-896b-93abdb0cd39e.json"
+    ],
+    "state": "running",
+    "program": "Fashion.ipynb",
+    "root": "C:\\Users\\Shriram\\Documents\\GitHub\\DeepLearning",
+    "host": "ShriramChandran",
+    "username": "Shriram",
+    "executable": "C:\\Users\\Shriram\\anaconda3\\python.exe"
+}

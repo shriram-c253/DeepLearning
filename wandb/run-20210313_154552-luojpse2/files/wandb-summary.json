@@ -1,0 +1,1 @@
+{"epoch": 10, "_runtime": 31, "_timestamp": 1615630583, "_step": 49, "loss": 38280.752053740274, "accuracy": 0.6872333333333334, "val_loss": 38474.95308576579, "val_accuracy": 0.6838}

@@ -1,0 +1,36 @@
+2021-03-13 19:42:11,522 INFO    MainThread:22372 [wandb_setup.py:_flush():69] setting env: {}
+2021-03-13 19:42:11,524 INFO    MainThread:22372 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-13 19:42:11,524 INFO    MainThread:22372 [wandb_init.py:_log_setup():334] Logging user logs to C:\Users\Shriram\Documents\GitHub\DeepLearning\wandb\run-20210313_194211-13a6m289\logs\debug.log
+2021-03-13 19:42:11,525 INFO    MainThread:22372 [wandb_init.py:_log_setup():335] Logging internal logs to C:\Users\Shriram\Documents\GitHub\DeepLearning\wandb\run-20210313_194211-13a6m289\logs\debug-internal.log
+2021-03-13 19:42:11,527 INFO    MainThread:22372 [wandb_init.py:_jupyter_setup():285] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002ABE70F45B0>
+2021-03-13 19:42:11,528 INFO    MainThread:22372 [wandb_init.py:init():367] calling init triggers
+2021-03-13 19:42:11,528 INFO    MainThread:22372 [wandb_init.py:init():372] wandb.init called with sweep_config: {}
+config: {}
+2021-03-13 19:42:11,528 INFO    MainThread:22372 [wandb_init.py:init():416] starting backend
+2021-03-13 19:42:11,528 INFO    MainThread:22372 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=spawn, using: spawn
+2021-03-13 19:42:11,544 INFO    MainThread:22372 [backend.py:ensure_launched():123] starting backend process...
+2021-03-13 19:42:11,903 INFO    MainThread:22372 [backend.py:ensure_launched():127] started backend process with pid: 4584
+2021-03-13 19:42:11,911 INFO    MainThread:22372 [wandb_init.py:init():421] backend started and connected
+2021-03-13 19:42:11,964 INFO    MainThread:22372 [wandb_init.py:init():461] updated telemetry
+2021-03-13 19:42:11,967 INFO    MainThread:22372 [wandb_init.py:init():480] communicating current version
+2021-03-13 19:42:15,789 INFO    MainThread:22372 [wandb_init.py:init():485] got version response upgrade_message: "wandb version 0.10.22 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-03-13 19:42:15,793 INFO    MainThread:22372 [wandb_init.py:init():493] communicating run to backend with 30 second timeout
+2021-03-13 19:42:16,200 INFO    MainThread:22372 [wandb_init.py:init():518] starting run threads in backend
+2021-03-13 19:42:21,241 INFO    MainThread:22372 [wandb_run.py:_console_start():1476] atexit reg
+2021-03-13 19:42:21,244 INFO    MainThread:22372 [wandb_run.py:_redirect():1339] redirect: SettingsConsole.WRAP
+2021-03-13 19:42:21,244 INFO    MainThread:22372 [wandb_run.py:_redirect():1374] Wrapping output streams.
+2021-03-13 19:42:21,245 INFO    MainThread:22372 [wandb_run.py:_redirect():1390] Redirects installed.
+2021-03-13 19:42:21,245 INFO    MainThread:22372 [wandb_init.py:init():542] run started, returning control to user process
+2021-03-13 19:42:25,482 INFO    MainThread:22372 [wandb_init.py:_pause_backend():247] pausing backend
+2021-03-13 19:42:25,483 INFO    MainThread:22372 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-03-13 19:44:18,640 INFO    MainThread:22372 [wandb_init.py:_resume_backend():256] resuming backend
+2021-03-13 19:44:18,657 INFO    MainThread:22372 [wandb_setup.py:_flush():69] setting env: {}
+2021-03-13 19:44:18,657 INFO    MainThread:22372 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-13 19:44:18,657 INFO    MainThread:22372 [wandb_init.py:_log_setup():334] Logging user logs to C:\Users\Shriram\Documents\GitHub\DeepLearning\wandb\run-20210313_194418-1mjxbw9o\logs\debug.log
+2021-03-13 19:44:18,658 INFO    MainThread:22372 [wandb_init.py:_log_setup():335] Logging internal logs to C:\Users\Shriram\Documents\GitHub\DeepLearning\wandb\run-20210313_194418-1mjxbw9o\logs\debug-internal.log
+2021-03-13 19:44:18,659 INFO    MainThread:22372 [wandb_init.py:init():367] calling init triggers
+2021-03-13 19:44:18,659 INFO    MainThread:22372 [wandb_init.py:init():372] wandb.init called with sweep_config: {}
+config: {}
+2021-03-13 19:44:18,680 INFO    MainThread:22372 [wandb_init.py:init():387] re-initializing run, found existing run on stack: 13a6m289
+2021-03-13 19:44:18,682 INFO    MainThread:22372 [wandb_run.py:finish():1135] finishing run 0x2e4/cs6910-a1/13a6m289
