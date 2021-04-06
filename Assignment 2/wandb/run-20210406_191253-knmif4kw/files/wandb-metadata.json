@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2021-04-06T13:42:57.222336",
+    "startedAt": "2021-04-06T13:42:53.367241",
+    "docker": null,
+    "gpu": "GeForce GTX 1050",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\Shriram\\AppData\\Roaming\\jupyter\\runtime\\kernel-0b46cb28-ebf4-468c-9f6e-a78a92f39cb3.json"
+    ],
+    "state": "running",
+    "program": "Natural.ipynb",
+    "root": "C:\\Users\\Shriram\\Documents\\GitHub\\DeepLearning\\Assignment 2",
+    "host": "ShriramChandran",
+    "username": "Shriram",
+    "executable": "C:\\Users\\Shriram\\anaconda3\\python.exe"
+}

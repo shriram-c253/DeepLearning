@@ -1,0 +1,12 @@
+wandb_version: 1
+
+batch_normalize:
+  value: false
+data_augment:
+  value: false
+dropout:
+  value: 0
+filter_factor:
+  value: 1
+n_filters:
+  value: 10
