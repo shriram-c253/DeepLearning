@@ -1,0 +1,1 @@
+This directory contains solutions to [Assignment 3](https://wandb.ai/miteshk/assignments/reports/Assignment-3--Vmlldzo0NjQwMDc) from Fundamentals of Deep Learning, CS6910 (Spring 2021).
