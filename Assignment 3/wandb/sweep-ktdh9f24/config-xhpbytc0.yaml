@@ -1,0 +1,14 @@
+wandb_version: 1
+
+cell_type:
+  value: GRU
+dropout:
+  value: 0.3
+hidden_layer_size:
+  value: 16
+num_decoders:
+  value: 2
+num_encoders:
+  value: 1
+num_epochs:
+  value: 45
